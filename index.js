@@ -13,7 +13,7 @@ const mdLinks = (filePath) => {
     fs.promises   // modulo para interactuar con el sistema de archivos
     .readFile(absolutePath, 'utf8') //Lee el archivo
     .then((markdownFile) => {
-      const links = getLinks(markdownFile, absolutePath);
+      const links = getLinks(markdownFile, absolutePath); 
       resolve(links);
     }) 
     .catch((error) => {

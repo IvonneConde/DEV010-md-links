@@ -26,7 +26,6 @@ const mdLinks = (filePath, validate = false) => {
       } else {
       resolve(links); // resolvemos los links que no son válidos
       }
-    }) 
     .catch((error) => {
       reject(error);
     });

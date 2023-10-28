@@ -12,7 +12,8 @@
   "dependencies": {
     "jest": "^29.7.0",
     "markdown-it": "^13.0.2",
-    "marked": "^9.1.2"
+    "marked": "^9.1.2",
+    "node-fetch": "^3.3.2"
   },
   "scripts": {
     "test": "jest --coverage"
